@@ -13,7 +13,7 @@ module XdomainRails
     private
 
     def xdomain_script_tag
-      javascript_tag(Rails.application.assets.find_asset("xdomain.min").source)
+      javascript_tag(Rails.application.assets.find_asset("xdomain").source)
     end
 
     def configuration
